@@ -1,84 +1,15 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from '../components/Header'
+
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
+    <div className='h-screen'>
+      <Header/>
+      <div className='mt-10'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rerum provident quasi id! Dolorum cumque ea cum sunt ducimus, itaque consectetur, perspiciatis aperiam explicabo culpa deleniti vero recusandae aliquid ex. Quod et libero quis laborum aut, qui officiis laudantium quia officia. Consequatur eius aliquid nam adipisci id corporis delectus, perferendis iusto. Accusantium quasi ducimus esse mollitia sit, aliquid repellendus consequuntur ut qui exercitationem maxime, quas recusandae quaerat ipsam quos impedit. Hic nesciunt non nisi, voluptatibus tempora corrupti sapiente quo rem? Natus saepe voluptatem sed molestias non, corrupti explicabo quod minus pariatur porro ex dolore possimus. Nisi dignissimos error corrupti fuga molestiae placeat asperiores quia perferendis ab laborum, doloribus quibusdam illum magnam tempore harum tenetur voluptatum numquam voluptatibus blanditiis dolorem libero ipsa expedita soluta. Laudantium ipsa harum ea temporibus provident nam, earum ipsum hic quaerat aut amet. Voluptatem sit, eius totam corrupti dicta nam corporis deserunt cupiditate ipsum ducimus voluptate atque impedit, beatae culpa reiciendis assumenda vero pariatur. Animi doloremque ipsum quaerat exercitationem tempora. Doloremque ullam nobis voluptatum, perferendis unde beatae! Quibusdam, vel aliquam eaque qui hic totam id voluptate aut? Quo delectus incidunt quae culpa eligendi accusantium eveniet vero in nobis, recusandae ex ut vel? Officia quisquam sint optio cumque suscipit, nisi veniam, nihil aliquam maiores nulla eos neque aut amet quasi mollitia unde. Veritatis dolorem fugiat eum ex autem cupiditate dolorum, error iure delectus aliquam excepturi aliquid, ut et ducimus aspernatur nisi modi quaerat mollitia iusto quo incidunt! Ipsum minus repellat totam, laudantium nihil dolorem! Vero tenetur cumque fugit dolores labore quas reiciendis delectus quos a illum. Illo, maxime aut. Provident doloremque aperiam doloribus enim, fugit atque quo libero illo a pariatur repellat beatae harum tempore nesciunt dolore labore mollitia! Porro ducimus reprehenderit veritatis cum impedit architecto assumenda facilis aperiam tempora deserunt dolorum inventore et minus repellendus doloribus sed iure expedita, ipsam nisi eum, quam, labore in. Animi, voluptatem dolorem. Repellat qui in impedit eaque error quos quaerat numquam officiis neque, dicta doloremque odit laudantium doloribus aliquam incidunt, enim, aspernatur facilis! Mollitia architecto quis a recusandae omnis ipsam ex iste natus ut? Sequi, officiis praesentium doloribus labore reprehenderit quod quae! Dignissimos accusantium saepe vel beatae sapiente cupiditate hic? Provident dicta deleniti labore aliquam incidunt aut ipsum nisi tenetur reprehenderit quibusdam aspernatur, voluptatem exercitationem! Quia voluptatem est soluta. Necessitatibus, totam! Maxime alias dolore libero natus. Sunt voluptas natus accusantium qui atque iure labore, dolore dolorem ea commodi quam consectetur omnis, quisquam autem? Modi rerum a dolore nulla, aperiam earum, aliquid debitis eius numquam officiis eligendi nostrum quasi illum facere aspernatur, tenetur magnam. Dolorum vero facere distinctio esse? Rem iusto et nisi. Ipsum veniam cupiditate quas ullam tenetur sunt illum ipsa repellendus, sequi a est mollitia excepturi, consequuntur inventore commodi voluptas laborum in. Perferendis sequi voluptates voluptatum unde consequuntur. Magnam molestias atque quia vitae esse nulla nam laborum odio repudiandae totam, optio eligendi repellendus nostrum eaque, dolorem rerum ea doloribus! Eaque in animi iusto excepturi inventore qui aut suscipit error perspiciatis praesentium nihil tenetur pariatur expedita harum natus a distinctio, quibusdam iure aliquam corrupti ipsam dignissimos asperiores iste neque. Esse eaque animi beatae quae qui, quia tenetur. Neque, ex. Aliquam id quis tenetur sequi ad, quisquam aperiam ipsa qui repudiandae. Repellendus veniam sequi, sed corrupti praesentium facere eveniet reprehenderit omnis sint? Expedita sit quas dignissimos, quidem, officia fuga voluptatem ratione a debitis doloribus iste sed dolorum odit voluptatibus nesciunt dolores minima beatae vel maiores! Atque itaque corporis non exercitationem fugiat iure dolorem neque iste. Aliquam ipsam ratione aspernatur sit, tempora error hic voluptate ab beatae, veniam et ad repellendus dolorum quod? Porro quae reiciendis in, ratione perspiciatis molestias officia ipsam, quidem fugiat blanditiis dolor libero qui eos iusto accusantium totam nobis inventore ipsa voluptatem. Facilis, dolorum maxime necessitatibus impedit ducimus quibusdam cumque tempore incidunt omnis deleniti esse blanditiis culpa laborum laudantium accusamus ab. Omnis vitae debitis, molestias excepturi pariatur quam sequi vel obcaecati suscipit iusto tenetur sed quis corrupti expedita aut cumque! Provident hic molestiae cumque quos, veritatis consequuntur consectetur est mollitia qui modi dolor assumenda perspiciatis quam nemo in. Sequi illo ab nesciunt obcaecati, impedit reiciendis amet nisi aperiam quam cupiditate quisquam corrupti nobis nemo, non error, molestias pariatur veritatis cum a nihil aliquid nostrum tempora. Repellat dolorum nihil laboriosam, eveniet ex voluptates aperiam asperiores consectetur. Quisquam aut at ratione cupiditate! Dolorum laudantium consectetur at explicabo non quia nostrum sapiente animi architecto voluptatibus blanditiis veniam sequi, corrupti, doloremque odit inventore vitae dolore ut porro reiciendis aperiam necessitatibus, nam omnis ab. Officiis quisquam quidem accusamus suscipit ducimus reprehenderit temporibus asperiores tempora, doloremque eum saepe magnam ex? Consequuntur ex fugit dicta eos iure in odio cumque tempore a blanditiis fugiat delectus accusamus, numquam et, quod minima illo unde odit consectetur ab ratione! Iure, sed! Maxime quibusdam culpa, quod dolor, placeat nihil magni deserunt aliquid praesentium rem, perferendis quos. Rem dicta laboriosam, odio deserunt architecto harum quaerat provident debitis ea voluptate doloremque minus quasi ipsam earum laudantium a amet praesentium non, similique, tempora dolorem. Doloribus deleniti dolor consectetur voluptates iste, explicabo iusto ex repudiandae minima, commodi delectus? Tempora molestiae debitis repudiandae nemo, soluta minima. Facere, incidunt fuga! Culpa distinctio quibusdam excepturi. Porro illo cupiditate repellendus dignissimos. Nulla, exercitationem ullam est quo libero laboriosam maiores explicabo dolores rem dolorum sed error veritatis velit rerum repellendus saepe incidunt cupiditate, reprehenderit esse sint dolor ipsa tempore. Sit id eveniet ratione, assumenda rem a aliquam mollitia quas, laboriosam blanditiis, quis explicabo. Reiciendis modi laboriosam mollitia. Ab facere aperiam labore id cupiditate possimus, deleniti quod quo temporibus explicabo quia alias ipsum autem odio neque error soluta sunt eligendi iure earum molestiae libero dolorem assumenda. Fugiat laborum sunt incidunt ullam harum cumque. Nesciunt aut veritatis est reprehenderit. Corrupti fuga provident neque officiis sed, id delectus facere dignissimos, cumque, voluptates vitae aliquam adipisci labore iure nobis tenetur ipsum itaque est. Excepturi assumenda fugit totam dignissimos ducimus, iste exercitationem sapiente! Dignissimos aspernatur magnam minima facere. Architecto enim quos unde commodi amet iusto, eveniet, quas porro dolor asperiores natus odit molestiae a adipisci eum error modi provident earum nisi. Nam, molestiae accusamus.</div>
     </div>
   )
 }
